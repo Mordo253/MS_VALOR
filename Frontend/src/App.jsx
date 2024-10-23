@@ -26,7 +26,7 @@ function App() {
         <VehicleProvider>
           <BrowserRouter>
             <main>
-              <Indicador/>
+              {/* <Indicador/> */}
               <Header /> {/* Mover la lógica de visibilidad del header a este componente */}
               <Routes>
                 {/* Rutas públicas */}
